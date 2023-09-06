@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.place-card{
+  width: 260px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+}
+.place-card-img{
+  width: 100%;
+  border-radius: 14px 14px  0 0;
+}
+.place-card-body{
+  padding: 10px;
+}
+.card h3{
+  margin: 8px 0 0 0;
+}
+.card p{
+  font-size: 14px;
+}
+.container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.place-card-header{
+  position: relative;
+}
+.best-spot{
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(255, 245, 224);
+  color: rgb(83, 50, 0);
+  margin: 10px;
+  padding: 3px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+.d-none{
+  display: none;
+}
+
+
+.header-tab {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the tab link */
+.tab-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #555;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for tab link */
+.tab-link:hover {
+  background-color: #777;
+}
+
+
+
+
+
+
